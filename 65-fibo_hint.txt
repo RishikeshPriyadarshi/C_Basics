@@ -1,0 +1,10 @@
+//fibonacci series is a series of number where first two fibonacci numbers are 0 and 1
+and each subsequent number is the sum of previous two
+
+//we can say in any fibonacci nuber first two nubers are 0 and 1
+
+
+hint:
+fib(n) = fib(n-1) + fib(n-2)
+fib(1)=0
+fib(2)=1

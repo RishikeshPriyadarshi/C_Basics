@@ -1,0 +1,24 @@
+//when function call itself then it is called recursive function or recursion
+//find out the sum of 1st N natural numbers
+//N=4
+//1+2+3+4
+//The logic of recursion is simple if any problem gets defined in the term of itself than that problem is of recursion
+//approach:
+//in step 1 we supposed
+//1.fist make the function of name sum(N)...We suppose we have function sum(N) with arguments(N) passsed and it will return the value after doin the sum of N number
+//2.N+(1+2+3....N-1)..>adding the value of N-1 to N will give the sum of 1st N natural number
+//in step 3 we have found the Recursive case
+//3.call the function sum and pass the value (N-1) inside it..i.e sum(N-1)
+//so result= N+sum(N-1)
+//4.if N=4..then it becomes result=4+sum(3)
+//in step 5 we have found the Base case where recursion gets stopped
+//5.if N==1 then result is 1 not result=1+(0)//here we do not have to perform recursion
+//so step 5 is Base case and step 4 is Recursive case
+
+
+Algorithm:
+sum(N)
+1.if(N==1)
+  return(1);
+2.return(N+sum(n-1));  
+
